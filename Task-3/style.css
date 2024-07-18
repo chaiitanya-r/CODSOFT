@@ -1,0 +1,66 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    background-color: #fff;
+    border: 4px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.form input {
+    border: 0;
+    border-radius: 10px;
+    outline: 0;
+    margin: 5px;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+}
+
+.display {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+form input.operator {
+    color: #000;
+    font-weight: 600;
+    background-color: orange;
+    border: 0;
+    border-radius: 50%;
+}
+
+form input.number {
+    color: #fff;
+    background-color: #000;
+    border: 0;
+    border-radius: 50%;
+}
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+}
+
+.display input {
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+}
