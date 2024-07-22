@@ -49,6 +49,11 @@ form input.operator {
     background-color: #00f7ff;
     border: 0;
     border-radius: 50%;
+    transition-duration: 0.1s;
+}
+
+.form input.operator:hover {
+    transform: scale(1.1);
 }
 
 form input.number {
@@ -56,6 +61,11 @@ form input.number {
     background-color: #27496D;
     border: 0;
     border-radius: 50%;
+    transition-duration: 0.1s;
+}
+
+.form input.number:hover {
+    transform: scale(1.1);
 }
 
 .display {
