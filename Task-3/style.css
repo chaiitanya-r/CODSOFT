@@ -79,3 +79,18 @@ form input.number {
     flex: 1;
     font-size: 40px;
 }
+
+.heading {
+    position: absolute;
+    display: flex;
+    width: auto;
+    top: 0;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.heading p {
+    color: #27496D;
+    text-align: center;
+    justify-content: center;
+}
