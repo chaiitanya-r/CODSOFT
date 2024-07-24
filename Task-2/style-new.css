@@ -1,5 +1,10 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-Black.ttf);
+}
+
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Poppins;
     margin: 0;
     padding: 0;
     position: relative;
@@ -16,7 +21,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    filter: blur(0px) brightness(70%);
+    filter: blur(0px) opacity(90%) brightness(60%);
     z-index: -1;
 }
 
@@ -109,18 +114,16 @@ body {
 .button button {
     padding: 5px 30px;
     font-size: 20px;
-    font-weight: bold;
-    background-color: #000;
-    color: #FFF;
-    border: none;
-    cursor: pointer;
-    transition-duration: 0.5s;
-}
-
-.button button:hover {
+    font-weight: bolder;
     background-color: #FFF;
     color: #000;
     border: none;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.button button:hover {
+    transform: scale(1.1);
 }
 
 footer {
